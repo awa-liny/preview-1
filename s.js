@@ -16,4 +16,6 @@ function GetQueryString(api) {
   else if (sname=='2'){document.write('<iframe src="https://1.preview.awaliny.top/t2-2.html"></iframe>')}
   else if (sname=='4'){document.write('<iframe src="https://1.preview.awaliny.top/2-6.html"></iframe>')}
   else if (sname=='3'){document.write('<iframe src="https://1.preview.awaliny.top/t2-3.html"></iframe>')}
+ else if (sname=='5'){document.write('<iframe src="https://1.preview.awaliny.top/t2-b1.html"></iframe>')}
+  else if (sname=='6'){document.write('<iframe src="https://1.preview.awaliny.top/t2-5.html"></iframe>')}
   else{document.write("<iframe src="+sname+"></iframe>")};
