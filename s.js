@@ -11,11 +11,11 @@ function GetQueryString(api) {
   }
   if (sname==null){document.write("参数错误 错误代码AE0122")}
   else if (sname=="https://awaliny.top"){document.write("参数错误 错误代码taowashiba")}else if (sname=="https://www.awaliny.top"){document.write("参数错误 错误代码taowashiba")}else if (sname=="http://awaliny.top"){document.write("参数错误 错误代码taowashiba")}else if (sname=="http://www.awaliny.top"){document.write("参数错误 错误代码taowashiba")}else if (sname=="//awaliny.top"){document.write("参数错误 错误代码taowashiba")}else if (sname=="//www.awaliny.top"){document.write("参数错误 错误代码taowashiba")}
-  else if (sname=='join'){document.write('<iframe src="https://1.preview.awaliny.top/join/"></iframe>')}
-  else if (sname=='1'){document.write('<iframe src="https://1.preview.awaliny.top/2-t1.html"></iframe>')}
-  else if (sname=='2'){document.write('<iframe src="https://1.preview.awaliny.top/t2-2.html"></iframe>')}
-  else if (sname=='4'){document.write('<iframe src="https://1.preview.awaliny.top/2-6.html"></iframe>')}
-  else if (sname=='3'){document.write('<iframe src="https://1.preview.awaliny.top/t2-3.html"></iframe>')}
- else if (sname=='5'){document.write('<iframe src="https://1.preview.awaliny.top/t2-b1.html"></iframe>')}
-  else if (sname=='6'){document.write('<iframe src="https://1.preview.awaliny.top/t2-5.html"></iframe>')}
+  else if (sname=='join'){location.replace("https://s.awaliny.top/?p=join")}
+  else if (sname=='1'){location.replace("https://s.awaliny.top/?p=1")}
+  else if (sname=='2'){location.replace("https://s.awaliny.top/?p=2")}
+  else if (sname=='4'){location.replace("https://s.awaliny.top/?p=4")}
+  else if (sname=='3'){location.replace("https://s.awaliny.top/?p=3")}
+ else if (sname=='5'){location.replace("https://s.awaliny.top/?p=5")}
+  else if (sname=='6'){location.replace("https://s.awaliny.top/?p=6")}
   else{document.write("<iframe src="+sname+"></iframe>")};
